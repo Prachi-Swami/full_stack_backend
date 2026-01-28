@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-+oy5@d#h$dqbqv4%pz)3hx&rtt)_*o2$fvlht!^6$egdsz-9h-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["full-stack-backend-1-3ftb.onrender.com"]
+ALLOWED_HOSTS = [
+    'full-stack-backend-1-3ftb.onrender.com',
+    '.onrender.com'
+]
+
 
 CSRF_TRUSTED_ORIGINS = [
     'https://full-stack-backend-1-3ftb.onrender.com'
